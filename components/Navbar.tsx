@@ -14,7 +14,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 w-full h-auto px-4 py-6 border-b border-b-ivory/50 z-1000 bg-dim">
       <div className="w-[90%] h-auto mx-auto flex justify-between items-center text-ivory">
-        <div className="text-lg md:text-xl">finch</div>
+        <div className="text-lg md:text-xl">
+          <Link href="/">Cashivo</Link>
+        </div>
         <div className="hidden md:flex gap-6 items-center">
           {navdata.map((data) => (
             <Link key={data.id} href={data.link} className="text-lg md:text-xl">
