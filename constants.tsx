@@ -28,16 +28,26 @@ export const navdata: nav[] = [
   },
 ];
 
-export const landing: landingbg = {
-  backgroundImage: "url('/hero.webp')",
+export const background: landingbg = {
+  backgroundImage: "url('/background.webp')",
   backgroundSize: "cover",
   backgroundPosition: "center center",
   backgroundRepeat: "no-repeat",
 };
 export const overlay: bgoverlay = {
-  backgroundImage: "url('/black-felt.png')",
+  backgroundImage: "url('/asfalt-light.png')",
   backgroundBlendMode: "overlay",
   backgroundSize: "cover",
+  backgroundRepeat: "repeat",
+};
+export const grey: bgoverlay = {
+  backgroundImage: "url('/always-grey.png')",
+  backgroundBlendMode: "overlay",
+  backgroundRepeat: "repeat",
+};
+export const tile: bgoverlay = {
+  backgroundImage: "url('/3px-tile.png')",
+  backgroundBlendMode: "overlay",
   backgroundRepeat: "repeat",
 };
 

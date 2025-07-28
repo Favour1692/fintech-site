@@ -16,7 +16,7 @@ export interface landingbg {
 export interface bgoverlay {
   backgroundImage: string;
   backgroundBlendMode: string;
-  backgroundSize: string;
+  backgroundSize?: string;
   backgroundRepeat: string;
 }
 

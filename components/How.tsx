@@ -25,21 +25,21 @@ const How = () => {
             <Card className="h-[220px] flex flex-col justify-center">
               <CardHeader className="md:pt-2">
                 <CardTitle>{data.step}</CardTitle>
-                <CardDescription className="font-semibold">{data.title}</CardDescription>
+                <CardDescription className="font-semibold text-darkblue dark:text-lightblue">{data.title}</CardDescription>
                 <CardAction>
                   <FaArrowRightLong />
                 </CardAction>
               </CardHeader>
               <CardContent className="flex flex-col justify-center items-center gap-2 md:pb-2">
-                <div className="text-5xl font-semibold text-dim">{data.icon}</div>
+                <div className="text-5xl font-semibold text-dim dark:text-darkblue">{data.icon}</div>
                 <p>{data.description}</p>
               </CardContent>
             </Card>
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="text-dim bg-ivory font-semibold" />
-      <CarouselNext className="text-dim bg-ivory font-semibold" />
+      <CarouselPrevious className="text-dim bg-ivory dark:text-dim dark:bg-darkwhite font-semibold" />
+      <CarouselNext className="text-dim bg-ivory dark:text-dim dark:bg-darkwhite font-semibold" />
     </Carousel>
   );
 };

@@ -4,11 +4,12 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --color-blueslate: #2a3e5f;
+  --color-darkblue: #46628a;
   --color-dim: #1c283d;
   --color-lightblue: #6c8ebf;
   --color-ivory: #fffff0;
-  --color-linen: #faf0e6;
+  --color-darkwhite: #f8f8ff;
+  --color-graphite: #1a1a1a;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
