@@ -16,11 +16,11 @@ const Home = () => {
           <div className="w-[90%] md:w-[80%] mx-auto h-full flex flex-col justify-center items-center">
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-15 items-center">
               {/* text section */}
-              <div className="w-full flex flex-col gap-2 text-ivory text-center xl:text-left justify-center">
+              <div className="w-full flex flex-col gap-3 text-ivory text-center xl:text-left justify-center">
                 <small className="uppercase">trusted by over a million people</small>
-                <h1 className="text-4xl md:text-5xl xl:text-6xl capitalize">smart tools for smart financial decisions all in one platform</h1>
-                <p className="text-lg mt-4">Manage all your finances in one smart seamless platform. Suitable for both businesses and individual finances</p>
-                <div className="flex gap-4 mt-4 mx-auto xl:mx-0">
+                <h1 className={`capitalize`}>smart tools for smart financial decisions all in one platform</h1>
+                <p className="text-lg">Manage all your finances in one smart seamless platform. Suitable for both businesses and individual finances</p>
+                <div className="flex gap-4 mt-2 mx-auto xl:mx-0">
                   <Button variant="outline" className="font-semibold bg-lightblue hover:bg-ivory dark:bg-darkblue dark:hover:bg-darkwhite dark:hover:text-graphite py-5">
                     Start free
                   </Button>

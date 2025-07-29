@@ -1,6 +1,26 @@
-import { Geist } from "next/font/google";
+import { Source_Sans_3, Montserrat_Alternates, DM_Sans, Ubuntu, Pacifico } from "next/font/google";
 
-export const geistSans = Geist({
-  variable: "--font-geist-sans",
+export const h1font = Montserrat_Alternates({
+  weight: ["600", "700"],
   subsets: ["latin"],
+  variable: "--font-h1",
+});
+export const h2font = DM_Sans({
+  weight: ["400", "700", "600"],
+  subsets: ["latin"],
+  variable: "--font-h2",
+});
+export const textfont = Source_Sans_3({
+  weight: ["400"],
+  subsets: ["latin"],
+});
+export const buttonfont = Ubuntu({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-button",
+});
+export const logofont = Pacifico({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-logo",
 });

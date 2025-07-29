@@ -125,4 +125,18 @@
   body {
     @apply bg-background text-foreground;
   }
+  h1 {
+    font-family: var(--font-h1);
+    @apply text-4xl md:text-5xl xl:text-6xl font-semibold;
+  }
+  h2 {
+    font-family: var(--font-h2);
+    @apply text-2xl lg:text-4xl text-darkblue dark:text-lightblue capitalize font-bold;
+  }
+  h3 {
+    @apply text-xl md:text-2xl text-graphite dark:text-darkwhite font-semibold;
+  }
+  button {
+    font-family: var(--font-button);
+  }
 }

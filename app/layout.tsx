@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/theme-provider";
+import { h1font, textfont, h2font, buttonfont, logofont } from "@/fonts";
 
 export const metadata: Metadata = {
   title: "Financial site",
@@ -15,11 +16,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className={`${h1font.variable} ${h2font.variable} ${buttonfont.variable} ${logofont}`}>
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <Navbar />
-          <main className="bg-darkwhite text-graphite dark:bg-dim dark:text-ivory">{children}</main>
+          <main className={`${textfont.className} antialiased bg-darkwhite text-graphite dark:bg-dim dark:text-ivory`}>{children}</main>
           <Footer />
         </ThemeProvider>
       </body>

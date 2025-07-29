@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { features, tile } from "@/constants";
 import Image from "next/image";
+import FAQ from "@/components/FAQ";
 
 const Features = () => {
   return (
@@ -112,6 +113,12 @@ const Features = () => {
       </div>
 
       {/* FAQ */}
+      <div className="py-8 px-4">
+        <div className="w-[90%] md:w-[80%] lg:w-[75%] mx-auto">
+          <h2 className="uppercase">frequently asked questions</h2>
+          <FAQ />
+        </div>
+      </div>
     </div>
   );
 };

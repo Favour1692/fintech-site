@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { tile } from "@/constants";
-import Stats from "@/components/Stats";
+import Stats from "@/components/stats";
 
 const About = () => {
   return (
