@@ -5,14 +5,15 @@ export const h1font = Montserrat_Alternates({
   subsets: ["latin"],
   variable: "--font-h1",
 });
-export const h2font = DM_Sans({
+export const textfont = DM_Sans({
   weight: ["400", "700", "600"],
   subsets: ["latin"],
-  variable: "--font-h2",
+  variable: "--textfont",
 });
-export const textfont = Source_Sans_3({
+export const h2font = Source_Sans_3({
   weight: ["400"],
   subsets: ["latin"],
+  variable: "--font-h2",
 });
 export const buttonfont = Ubuntu({
   weight: ["400"],

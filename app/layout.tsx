@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/theme-provider";
 import { h1font, textfont, h2font, buttonfont, logofont } from "@/fonts";
+import AosInit from "@/components/AosInit";
 
 export const metadata: Metadata = {
   title: "Financial site",
@@ -16,9 +17,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className={`${h1font.variable} ${h2font.variable} ${buttonfont.variable} ${logofont}`}>
-      <body>
+    <html lang="en" suppressHydrationWarning className={`${h1font.variable} ${h2font.variable} ${buttonfont.variable} ${logofont.variable}`}>
+      <body className="overflow-x-hidden">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          <AosInit />
           <Navbar />
           <main className={`${textfont.className} antialiased bg-darkwhite text-graphite dark:bg-dim dark:text-ivory`}>{children}</main>
           <Footer />

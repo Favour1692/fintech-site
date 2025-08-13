@@ -10,6 +10,7 @@
   --color-ivory: #fffff0;
   --color-darkwhite: #f8f8ff;
   --color-graphite: #1a1a1a;
+  --color-contrast: #e3b23c;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -138,5 +139,6 @@
   }
   button {
     font-family: var(--font-button);
+    @apply cursor-pointer;
   }
 }

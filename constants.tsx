@@ -1,57 +1,61 @@
-import { nav, landingbg, bgoverlay, featurecard, how } from "./type";
+import { Nav, Landingbg, Bgoverlay, Featurecard, How, Social } from "./type";
 import { GoChecklist } from "react-icons/go";
 import { FaChartBar, FaMobileAlt, FaSearch } from "react-icons/fa";
 import { MdOutlineAutoAwesomeMosaic, MdSpaceDashboard } from "react-icons/md";
 import { FaBriefcase, FaLink, FaRobot } from "react-icons/fa6";
 import { GiPadlock, GiBullseye } from "react-icons/gi";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
 
-export const navdata: nav[] = [
+export const navdata: Nav[] = [
   {
     id: 1,
-    link: "/",
+    href: "/",
     title: "Home",
   },
   {
     id: 2,
-    link: "/about",
+    href: "/about",
     title: "About",
   },
   {
     id: 3,
-    link: "/features",
+    href: "/features",
     title: "Features",
   },
   {
     id: 4,
-    link: "/contact",
+    href: "/contact",
     title: "Contact Us",
   },
 ];
 
-export const background: landingbg = {
+export const background: Landingbg = {
   backgroundImage: "url('/background.webp')",
   backgroundSize: "cover",
   backgroundPosition: "center center",
   backgroundRepeat: "no-repeat",
 };
-export const overlay: bgoverlay = {
+export const overlay: Bgoverlay = {
   backgroundImage: "url('/asfalt-light.png')",
   backgroundBlendMode: "overlay",
   backgroundSize: "cover",
   backgroundRepeat: "repeat",
 };
-export const grey: bgoverlay = {
+export const grey: Bgoverlay = {
   backgroundImage: "url('/always-grey.png')",
   backgroundBlendMode: "overlay",
   backgroundRepeat: "repeat",
 };
-export const tile: bgoverlay = {
+export const tile: Bgoverlay = {
   backgroundImage: "url('/3px-tile.png')",
   backgroundBlendMode: "overlay",
   backgroundRepeat: "repeat",
 };
 
-export const features: featurecard[] = [
+export const features: Featurecard[] = [
   {
     id: 1,
     icon: <GoChecklist />,
@@ -84,7 +88,7 @@ export const features: featurecard[] = [
   },
 ];
 
-export const howcard: how[] = [
+export const howcard: How[] = [
   {
     id: 1,
     icon: <FaLink />,
@@ -119,5 +123,28 @@ export const howcard: how[] = [
     step: "Step 5",
     title: "Act on insights",
     description: "Make decisions backed by smart data, without having to decode spreadsheets or reports",
+  },
+];
+
+export const socials: Social[] = [
+  {
+    id: 1,
+    logo: <FaLinkedinIn />,
+    href: "#",
+  },
+  {
+    id: 2,
+    logo: <FaSquareXTwitter />,
+    href: "#",
+  },
+  {
+    id: 3,
+    logo: <FaInstagramSquare />,
+    href: "#",
+  },
+  {
+    id: 4,
+    logo: <FaFacebook />,
+    href: "#",
   },
 ];
