@@ -10,6 +10,7 @@ import { logofont, h2font } from "@/fonts";
 import { usePathname } from "next/navigation";
 import AnimatedBtn from "@/components/AnimatedBtn";
 import Mobilemenu from "./Mobilemenu";
+import Image from "next/image";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -32,7 +33,7 @@ const Navbar = () => {
     <nav className={`${h2font.className} ${scroll ? `bg-darkblue shadow-[0_1px_2px_#333] dark:shadow-[0_1px_2px_#333]` : `bg-transparent shadow-none`} antialiased fixed top-0 left-0 right-0 w-full py-6 z-50 overflow-x-hidden`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <div className={`${logofont.className} antialiased text-2xl`}>
+          <div className={`${logofont.className} antialiased text-2xl flex gap-2 items-center`}>
             <Link href="/" className="text-contrast font-semibold">
               Cashivo
             </Link>
