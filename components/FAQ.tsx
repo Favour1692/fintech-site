@@ -8,7 +8,7 @@ const FAQ = () => {
           How do I open an account?
         </AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance text-base text-dim dark:text-darkwhite" data-aos="fade-up" data-aos-delay="100">
-          <p>Opening an account is easy and takes less than 5 minutes. Just download our app, provide your details, verify your identity and you're ready to start transacting.</p>
+          <p>Opening an account is easy and takes less than 5 minutes. Just download our app, provide your details, verify your identity and you&apos;re ready to start transacting.</p>
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-2">
@@ -24,7 +24,7 @@ const FAQ = () => {
           What kind of services do you offer?
         </AccordionTrigger>
         <AccordionContent className="flex flex-col gap-4 text-balance text-base text-dim dark:text-darkwhite" data-aos="fade-up" data-aos-delay="100">
-          <p>We offer savings, payments, transfers and financial planning tools. From managing personal finances to large business transactions, we've got you covered.</p>
+          <p>We offer savings, payments, transfers and financial planning tools. From managing personal finances to large business transactions, we&apos;ve got you covered.</p>
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-4">

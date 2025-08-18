@@ -18,8 +18,8 @@ const Features = () => {
             {/* text */}
             <div className="" data-aos="fade-right" data-aos-delay="100">
               <p className="flex flex-col items-center" data-aos="fade-up" data-aos-delay="200">
-                Finance made frictionless. At cashivo, we blend simplicity, speed, and smart design to give users financial tools that feel intuitive, empowering, and built for everyday life. Whether you're sending money across borders, building
-                savings on autopilot, or tracking expenses in real time, our features do the work, so you don't have to. Explore how our app turns complex finance into seamless experiences.
+                Finance made frictionless. At cashivo, we blend simplicity, speed, and smart design to give users financial tools that feel intuitive, empowering, and built for everyday life. Whether you&apos;re sending money across borders, building
+                savings on autopilot, or tracking expenses in real time, our features do the work, so you don&apos;t have to. Explore how our app turns complex finance into seamless experiences.
               </p>
               <div className="pt-4 flex flex-col items-center lg:items-start">
                 <Link href="/#playstore">
@@ -89,21 +89,21 @@ const Features = () => {
         </div>
       </div>
 
-      {/* what's next? */}
+      {/* what&apos;s next? */}
       <div className="bg-dim text-darkwhite">
         <div className="py-20 px-4 sm:px-6 lg:px-8" style={tile}>
           <div className="max-w-7xl mx-auto">
             <h2 className="uppercase text-contrast" data-aos="fade-up">
-              What's next?
+              What&apos;s next?
             </h2>
             <p className="py-4" data-aos="fade-up" data-aos-delay="100">
-              The future of finance is being built—right here. We're working on new tools to make money even simpler, smarter, and more connected. Whether it's tailored investment plans or multi-wallet support, we're designing features with your
-              goals in mind.
+              The future of finance is being built—right here. We&apos;re working on new tools to make money even simpler, smarter, and more connected. Whether it&apos;s tailored investment plans or multi-wallet support, we&apos;re designing features
+              with your goals in mind.
             </p>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center" data-aos="fade-right" data-aos-delay="100">
               {/* text section */}
               <div className="mt-4 flex flex-col gap-2">
-                <p className="">Here's a peak at what's brewing in our labs:</p>
+                <p className="">Here&apos;s a peak at what&apos;s brewing in our labs:</p>
                 <div className="grid grid-cols-1 gap-3">
                   <div>
                     <h3 className="text-lightblue" data-aos="fade-up" data-aos-delay="100">

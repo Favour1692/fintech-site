@@ -106,7 +106,7 @@ const Contact = () => {
       <div className="pt-16 pb-10 lg:py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <h2 className="uppercase" data-aos="fade-up">
-            need help? we're here for you
+            need help? we&apos;re here for you
           </h2>
           <div className="flex flex-col gap-4">
             <p data-aos="fade-up" data-aos-delay="100">

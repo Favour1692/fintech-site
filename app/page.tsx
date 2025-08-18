@@ -64,7 +64,7 @@ const Home = () => {
                 the best solution for your business
               </h2>
               <p data-aos="fade-up" data-aos-delay="400">
-                Say goodbye to outdated systems, spreadsheets and financial fog. Here's a smarter way to gain control, with the right tools, all in one platform, no complexity!
+                Say goodbye to outdated systems, spreadsheets and financial fog. Here&apos;s a smarter way to gain control, with the right tools, all in one platform, no complexity!
               </p>
               <div className="text-left">
                 <Link href="/about">
@@ -116,7 +116,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* who it's for */}
+      {/* who it&apos;s for */}
       <div style={background}>
         <div className="py-20 px-4 sm:px-6 lg:px-8 bg-graphite/50">
           <div className="max-w-7xl mx-auto text-darkwhite dark:text-ivory">
