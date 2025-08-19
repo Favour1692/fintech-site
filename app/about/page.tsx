@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { tile } from "@/constants";
-import Stats from "@/components/stats";
+import Stats from "@/components/Stats";
 import { Input } from "@/components/ui/input";
 import AnimatedBtn from "@/components/AnimatedBtn";
 
