@@ -86,7 +86,7 @@ const Home = () => {
       <div className="py-20 px-4 sm:px-6 lg:px-8 bg-ivory text-graphite dark:bg-graphite dark:text-darkwhite">
         <div className="max-w-7xl mx-auto" data-aos="fade-right">
           <h2 className="capitalize" data-aos="fade-up" data-aos-delay="200">
-            best solution for your business
+            smart tools. simple decisions
           </h2>
           <p data-aos="fade-up" data-aos-delay="400">
             our platform provides you with the right tools to streamline your business and personal finances

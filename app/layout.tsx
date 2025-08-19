@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning className={`${h1font.variable} ${h2font.variable} ${buttonfont.variable} ${logofont.variable}`}>
+    <html lang="en" suppressHydrationWarning className={`${h1font.variable} ${h2font.variable} ${buttonfont.variable} ${logofont.variable} scroll-smooth`}>
       <body className="overflow-x-hidden">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <AosInit />

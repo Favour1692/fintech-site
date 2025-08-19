@@ -50,7 +50,9 @@ const Navbar = () => {
                 </Link>
               );
             })}
-            <AnimatedBtn>Download app</AnimatedBtn>
+            <Link href="/#playstore">
+              <AnimatedBtn>Download app</AnimatedBtn>
+            </Link>
             <Mode />
           </div>
           <div className="lg:hidden flex gap-2 items-center">
