@@ -15,7 +15,7 @@ const Home = () => {
       {/* hero section */}
       <div className="w-full bg-dim">
         <div className="w-full pt-[25vh]" style={overlay}>
-          <div className="max-w-7xl mx-auto px-4 h-full flex flex-col justify-center items-center">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center items-center">
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-10 xl:gap-15 items-center">
               {/* text section */}
               <div
