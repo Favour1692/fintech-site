@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Features = () => {
   return (
-    <div className="pt-[6%] bg-darkwhite dark:bg-graphite overflow-x-hidden">
+    <div className="pt-[5vh] bg-darkwhite dark:bg-graphite overflow-x-hidden">
       {/* features */}
       <div className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
@@ -17,11 +17,20 @@ const Features = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             {/* text */}
             <div className="" data-aos="fade-right" data-aos-delay="100">
-              <p className="flex flex-col items-center" data-aos="fade-up" data-aos-delay="200">
-                Finance made frictionless. At cashivo, we blend simplicity, speed, and smart design to give users financial tools that feel intuitive, empowering, and built for everyday life. Whether you&apos;re sending money across borders, building
-                savings on autopilot, or tracking expenses in real time, our features do the work, so you don&apos;t have to. Explore how our app turns complex finance into seamless experiences.
+              <p
+                className="flex flex-col items-center"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                Finance made frictionless. At cashivo, we blend simplicity,
+                speed, and smart design to give users financial tools that feel
+                intuitive, empowering, and built for everyday life. Whether
+                you&apos;re sending money across borders, building savings on
+                autopilot, or tracking expenses in real time, our features do
+                the work, so you don&apos;t have to. Explore how our app turns
+                complex finance into seamless experiences.
               </p>
-              <div className="pt-4 flex flex-col items-center lg:items-start">
+              <div className="pt-4 flex flex-col items-start">
                 <Link href="/#playstore">
                   <AnimatedBtn data-aos="fade-right" data-aos-delay="300">
                     Download the app
@@ -31,7 +40,15 @@ const Features = () => {
             </div>
             {/* image */}
             <div className="mx-auto">
-              <Image src="/feature1.webp" alt="phone displaying account balance" width={400} height={267} className="rounded-2xl" data-aos="zoom-in-left" data-aos-delay="100"></Image>
+              <Image
+                src="/feature1.webp"
+                alt="phone displaying account balance"
+                width={400}
+                height={267}
+                className="rounded-2xl"
+                data-aos="zoom-in-left"
+                data-aos-delay="100"
+              ></Image>
             </div>
           </div>
         </div>
@@ -44,12 +61,24 @@ const Features = () => {
             best solution for your business
           </h2>
           <p data-aos="fade-up" data-aos-delay="100">
-            our platform provides you with the right tools to streamline your business and personal finances
+            our platform provides you with the right tools to streamline your
+            business and personal finances
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 py-4" data-aos="fade-up" data-aos-delay="200">
+          <div
+            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 py-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
             {features.map((data) => (
-              <Card key={data.id} className="h-auto md:h-[150px] hover:bg-lightblue dark:hover:bg-darkblue shadow-2xl shadow-black hover:text-ivory border-1-dim flex flex-col justify-center items-center">
-                <CardContent className="flex flex-col gap-2 items-center" data-aos="fade-left" data-aos-delay="300">
+              <Card
+                key={data.id}
+                className="h-auto md:h-[150px] hover:bg-lightblue dark:hover:bg-darkblue shadow-2xl shadow-black hover:text-ivory border-1-dim flex flex-col justify-center items-center"
+              >
+                <CardContent
+                  className="flex flex-col gap-2 items-center"
+                  data-aos="fade-left"
+                  data-aos-delay="300"
+                >
                   <div className="text-2xl font-semibold">{data.icon}</div>
                   <p>{data.text}</p>
                 </CardContent>
@@ -67,7 +96,11 @@ const Features = () => {
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
             {/* text */}
-            <ul className="list-outside list-decimal space-y-3 flex flex-col items-center" data-aos="fade-up" data-aos-delay="100">
+            <ul
+              className="list-outside list-decimal space-y-3 flex flex-col items-center"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
               <li data-aos="fade-right" data-aos-delay="100">
                 Download & Sign Up
               </li>
@@ -83,7 +116,14 @@ const Features = () => {
             </ul>
             {/* image */}
             <div className="mx-auto lg:mx-0">
-              <Image src="/feature2.webp" alt="financial dashboard" width={400} height={267} className="rounded-2xl" data-aos="zoom-in-left"></Image>
+              <Image
+                src="/feature2.webp"
+                alt="financial dashboard"
+                width={400}
+                height={267}
+                className="rounded-2xl"
+                data-aos="zoom-in-left"
+              ></Image>
             </div>
           </div>
         </div>
@@ -97,24 +137,42 @@ const Features = () => {
               What&apos;s next?
             </h2>
             <p className="py-4" data-aos="fade-up" data-aos-delay="100">
-              The future of finance is being built—right here. We&apos;re working on new tools to make money even simpler, smarter, and more connected. Whether it&apos;s tailored investment plans or multi-wallet support, we&apos;re designing features
-              with your goals in mind.
+              The future of finance is being built—right here. We&apos;re
+              working on new tools to make money even simpler, smarter, and more
+              connected. Whether it&apos;s tailored investment plans or
+              multi-wallet support, we&apos;re designing features with your
+              goals in mind.
             </p>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center" data-aos="fade-right" data-aos-delay="100">
+            <div
+              className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
               {/* text section */}
               <div className="mt-4 flex flex-col gap-2">
-                <p className="">Here&apos;s a peak at what&apos;s brewing in our labs:</p>
+                <p className="">
+                  Here&apos;s a peak at what&apos;s brewing in our labs:
+                </p>
                 <div className="grid grid-cols-1 gap-3">
                   <div>
-                    <h3 className="text-lightblue" data-aos="fade-up" data-aos-delay="100">
+                    <h3
+                      className="text-lightblue"
+                      data-aos="fade-up"
+                      data-aos-delay="100"
+                    >
                       Smart Budgeting AI
                     </h3>
                     <p data-aos="fade-up" data-aos-delay="150">
-                      Personalized spending insights that adapt to your lifestyle
+                      Personalized spending insights that adapt to your
+                      lifestyle
                     </p>
                   </div>
                   <div>
-                    <h3 className="text-lightblue" data-aos="fade-up" data-aos-delay="200">
+                    <h3
+                      className="text-lightblue"
+                      data-aos="fade-up"
+                      data-aos-delay="200"
+                    >
                       Group Goals
                     </h3>
                     <p data-aos="fade-up" data-aos-delay="150">
@@ -122,7 +180,11 @@ const Features = () => {
                     </p>
                   </div>
                   <div>
-                    <h3 className="text-lightblue" data-aos="fade-up" data-aos-delay="300">
+                    <h3
+                      className="text-lightblue"
+                      data-aos="fade-up"
+                      data-aos-delay="300"
+                    >
                       Local and Global Wallets
                     </h3>
                     <p data-aos="fade-up" data-aos-delay="350">
@@ -130,7 +192,11 @@ const Features = () => {
                     </p>
                   </div>
                   <div>
-                    <h3 className="text-lightblue" data-aos="fade-up" data-aos-delay="400">
+                    <h3
+                      className="text-lightblue"
+                      data-aos="fade-up"
+                      data-aos-delay="400"
+                    >
                       Merchant Dashboards
                     </h3>
                     <p data-aos="fade-up" data-aos-delay="450">
@@ -139,12 +205,21 @@ const Features = () => {
                   </div>
                 </div>
                 <p data-aos="fade-up" data-aos-delay="500">
-                  Want early access? Join our beta list and help shape the next wave
+                  Want early access? Join our beta list and help shape the next
+                  wave
                 </p>
               </div>
               {/* image section */}
               <div className="mx-auto lg:mx-0">
-                <Image src="/feature3.webp" alt="people working in office" width={500} height={333} className="rounded-2xl" data-aos="zoom-in-left" data-aos-delay="100"></Image>
+                <Image
+                  src="/feature3.webp"
+                  alt="people working in office"
+                  width={500}
+                  height={333}
+                  className="rounded-2xl"
+                  data-aos="zoom-in-left"
+                  data-aos-delay="100"
+                ></Image>
               </div>
             </div>
           </div>

@@ -33,7 +33,13 @@ const Navbar = () => {
   const pathname = usePathname();
 
   return (
-    <nav className={`${h2font.className} ${scroll ? `bg-darkblue shadow-[0_1px_2px_#333] dark:shadow-[0_1px_2px_#333]` : `bg-transparent shadow-none`} antialiased fixed top-0 left-0 right-0 w-full py-6 z-50 overflow-x-hidden`}>
+    <nav
+      className={`${h2font.className} ${
+        scroll
+          ? `bg-darkblue shadow-[0_1px_2px_#333] dark:shadow-[0_1px_2px_#333]`
+          : `bg-transparent shadow-none`
+      } antialiased fixed top-0 left-0 right-0 w-full py-6 z-50 overflow-x-hidden`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className={`${logofont.className} antialiased text-2xl`}>
@@ -45,7 +51,13 @@ const Navbar = () => {
             {navdata.map((data) => {
               const isActive = pathname === data.href;
               return (
-                <Link key={data.id} href={data.href} className={`${isActive ? `border-b-2 border-b-contrast` : `border-b-0`} text-contrast hover:text-contrast/80 text-xl font-semibold`}>
+                <Link
+                  key={data.id}
+                  href={data.href}
+                  className={`${
+                    isActive ? `border-b-2 border-b-contrast` : `border-b-0`
+                  } text-contrast hover:text-contrast/80 text-xl font-semibold`}
+                >
                   {data.title}
                 </Link>
               );
@@ -55,9 +67,19 @@ const Navbar = () => {
             </Link>
             <Mode />
           </div>
-          <div className="lg:hidden flex gap-2 items-center">
+          <div className="lg:hidden flex items-center">
             <Mode />
-            {open ? <IoMdClose onClick={handleClick} className="z-100 lg:hidden text-contrast font-semibold" /> : <FiMenu onClick={handleClick} className="z-100 lg:hidden text-contrast font-semibold" />}
+            {open ? (
+              <IoMdClose
+                onClick={handleClick}
+                className="z-100 lg:hidden text-contrast font-semibold"
+              />
+            ) : (
+              <FiMenu
+                onClick={handleClick}
+                className="z-100 lg:hidden text-contrast font-semibold"
+              />
+            )}
           </div>
         </div>
       </div>
